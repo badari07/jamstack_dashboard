@@ -10,7 +10,7 @@ const Form = ({ reloadTodos }) => {
 
     if (text === "") return;
 
-    await axios.post(".netlify/functions/create-todo", { text });
+    await axios.post("/.netlify/functions/create-todo", { text });
 
     setText("");
     reloadTodos();

@@ -5,7 +5,7 @@ import styles from "./todo.module.css";
 const Todo = ({ todo, reloadTodos }) => {
   const toggleCompleted = () => {
     axios
-      .post(".netlify/functions/toggle-completed", {
+      .post("/.netlify/functions/toggle-completed", {
         id: todo._id,
         text: todo.text,
         completed: !todo.completed,
@@ -15,7 +15,7 @@ const Todo = ({ todo, reloadTodos }) => {
 
   const handleDelete = () => {
     axios
-      .post(".netlify/functions/delete-todo", { id: todo._id })
+      .post("/.netlify/functions/delete-todo", { id: todo._id })
       .then(reloadTodos);
   };
 
