@@ -1,0 +1,14 @@
+{
+  "name": "jamstack_dashboard",
+  "version": "1.0.0",
+  "description": "jamstack_dashboard",
+  "main": "index.js",
+  "repository": "git@github.com:badari07/jamstack_dashboard.git",
+  "author": "badari07 <badari0793@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.22.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
