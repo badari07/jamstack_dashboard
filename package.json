@@ -6,6 +6,9 @@
   "repository": "git@github.com:badari07/jamstack_dashboard.git",
   "author": "badari07 <badari0793@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "gatsby build"
+  },
   "dependencies": {
     "@reach/dialog": "^0.10.3",
     "@reach/tabs": "^0.10.3",
