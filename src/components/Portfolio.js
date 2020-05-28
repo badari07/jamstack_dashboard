@@ -1,7 +1,0 @@
-import React from "react";
-
-const Portfolio = () => {
-  return <h1>this is portfolio</h1>;
-};
-
-export default Portfolio;
