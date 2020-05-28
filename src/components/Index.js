@@ -12,7 +12,7 @@ export default () => {
     let canceled = false;
     if (status !== "loading") return;
 
-    axios("/.netlify/functions/get-all-todos").then((result) => {
+    axios(".netlify/functions/get-all-todos").then((result) => {
       if (canceled === true) return;
       if (result.status !== 200) {
         console.error("Error loading todos!");
