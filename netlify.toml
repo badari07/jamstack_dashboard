@@ -2,7 +2,3 @@
   functions = "functions"
   publish = "public"
 
-[[redirects]]
-  from = "/dashboard/*"
-  to = "/dashboard"
-  status = 200
