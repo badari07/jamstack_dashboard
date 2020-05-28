@@ -4,7 +4,7 @@ import { Router } from "@reach/router";
 import Layout from "../components/Layout";
 import Profile from "../components/Profile";
 import Blog from "../components/Blog";
-import Todo from "../components/Todo";
+import Index from "../components/Index";
 import Login from "../components/Login";
 import IdentityModal from "react-netlify-identity-widget";
 import PrivateRoute from "../components/private-route";
@@ -26,7 +26,7 @@ const DashBoard = ({ location }) => {
       <Profile showModal={showModal} />
       <Router>
         <PrivateRoute path="/dashboard/blog" component={Blog} />
-        <PrivateRoute path="/dashboard/todo" component={Todo} />
+        <PrivateRoute path="/dashboard/todo" component={Index} />
         <Login path="/dashboard/login" showModal={showModal} />
       </Router>
       <IdentityModal
