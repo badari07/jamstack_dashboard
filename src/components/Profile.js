@@ -15,15 +15,21 @@ const Profile = ({ showModal }) => {
     isLoggedIn && (
       <div className="dashboard-header">
         <nav>
-          <Link to="/dashboard/blog" activeClassName="active">
-            Blog
+          <Link to="/dashboard/portfolio" activeClassName="active">
+            PortFolio
           </Link>
           <Link to="/dashboard/todo" activeClassName="active">
             Todo
           </Link>
+          <Link to="/" activeClassName="active">
+            Dashboard
+          </Link>
         </nav>
         <span>
-          Logged in as {name}. <button onClick={showModal}>log out</button>
+          Logged in as {name}{" "}
+          <button className="logout" onClick={showModal}>
+            log out
+          </button>
         </span>
       </div>
     )

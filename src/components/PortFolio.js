@@ -1,9 +1,9 @@
 import React from "react";
 
-const Blog = () => {
+const PortFolio = () => {
   return (
     <>
-      <h1>Blog</h1>
+      <h1>PortFolio</h1>
       <h2>Badari Narayan</h2>
       <p>
         I'm a software developer, currently working in JavaSystems.check my
@@ -18,4 +18,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default PortFolio;

@@ -25,6 +25,7 @@ const Form = ({ reloadTodos }) => {
           value={text}
           onChange={(event) => setText(event.target.value)}
           className={styles.input}
+          placeholder="New Task"
         />
       </label>
       <button className={styles.button}>Save Todo</button>

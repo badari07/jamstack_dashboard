@@ -3,7 +3,7 @@ import { navigate } from "gatsby";
 import { Router } from "@reach/router";
 import Layout from "../components/Layout";
 import Profile from "../components/Profile";
-import Blog from "../components/Blog";
+import PortFolio from "../components/PortFolio";
 import Index from "../components/Index";
 import Login from "../components/Login";
 import IdentityModal from "react-netlify-identity-widget";
@@ -25,7 +25,7 @@ const DashBoard = ({ location }) => {
     <Layout>
       <Profile showModal={showModal} />
       <Router>
-        <PrivateRoute path="/dashboard/blog" component={Blog} />
+        <PrivateRoute path="/dashboard/portfolio" component={PortFolio} />
         <PrivateRoute path="/dashboard/todo" component={Index} />
         <Login path="/dashboard/login" showModal={showModal} />
       </Router>
