@@ -1,4 +1,4 @@
-###JAMstack App
+### JAMstack App
 
 Jamstack app with Authenticate users with Netlify Identity.
 
@@ -33,5 +33,11 @@ You should to register to netlify.
 ```bash
 netlify dev
 ```
+
+## For work on TODO app
+
+If you want to work on Todo app you should register with faunaDB database and config the graphQl schema and should save the FAUNA_SERVER_SECRET in .env file in client side.
+
+Should enable netlify Identity in netlify and should add environment variable in netlify for accecesing db in serverless function.
 
 You can view the App in 'http://localhost:8888'

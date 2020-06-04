@@ -39,7 +39,7 @@ export default () => (
       <ol>
         <li>
           <p>
-            After Cloning or downloading zip file, Run{" "}
+            After Cloning or downloading zip file from github, Run{" "}
             <b>yarn or npm install</b> for downloading the dependencies of
             project.
           </p>
@@ -57,15 +57,25 @@ export default () => (
         </li>
         <li>
           <p>
-            You can view the App in{" "}
-            <u>
-              <b>'http://localhost:8888'</b>
-            </u>
+            You can view the App in <b>'http://localhost:8888'</b>
           </p>
         </li>
         <li>
           <p>
             You can read it in <b>README.md</b> file inside the project app.
+          </p>
+        </li>
+        <li>
+          <p>
+            If you want to work on Todo app you should register with faunaDB
+            database and config the graphQl schema and should save the
+            FAUNA_SERVER_SECRET in .env file in client side.
+          </p>
+        </li>
+        <li>
+          <p>
+            Should enable netlify Identity in netlify and should add environment
+            variable in netlify for accecesing db in serverless function.
           </p>
         </li>
       </ol>
