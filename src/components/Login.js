@@ -15,9 +15,9 @@ const Login = ({ showModal }) => {
     <>
       <div className="content logged-out">
         <h1>Super Secret Stuff!</h1>
-        <p>🔐 only my bestest friends can see this content</p>
+        <p>🔐 only Sign in user can see this content</p>
         <button className="login" onClick={showModal}>
-          log in / sign up to be my best friend
+          Log In / Sign Up
         </button>
       </div>
       <div className="content logged-in">

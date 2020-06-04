@@ -26,6 +26,14 @@ main {
   width: 90vw;
 }
 
+ol li {
+  font: italic 1em Georgia, Times, serif;
+  color: #999999;
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
 .dashboard-header {
   align-items: baseline;
   background: #ddd;
@@ -145,7 +153,6 @@ button {
 }
 
 .button-dashboard span {
-  cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;

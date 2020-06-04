@@ -22,7 +22,7 @@ const Profile = ({ showModal }) => {
             Todo
           </Link>
           <Link to="/" activeClassName="active">
-            Dashboard
+            Home
           </Link>
         </nav>
         <span>
