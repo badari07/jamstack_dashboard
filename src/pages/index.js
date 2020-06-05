@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 export default () => (
   <Layout>
     <>
-      <h1>Instructions to use App.</h1>
+      <h2>Instructions to use App.</h2>
       <Link to="/dashboard" className="button-dashboard">
         <span>DashBoard </span>
       </Link>
@@ -35,7 +35,7 @@ export default () => (
           </p>
         </li>
       </ol>
-      <h1>Instructions to Run App.</h1>
+      <h2>Instructions to Run App.</h2>
       <ol>
         <li>
           <p>
